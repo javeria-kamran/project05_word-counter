@@ -8,7 +8,7 @@ let words = users.paragraph.trim().split(" ")
 console.log("Yuor word count is " + " " + words.length + "\n");
 let will=await inquirer.prompt({
     type:"list",
-    name:"Want To",
+    name:"WantTo",
     message:"Do you want to know letter count?",
     choices:["Yes","No"]
 })
